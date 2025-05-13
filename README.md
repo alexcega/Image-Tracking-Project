@@ -63,7 +63,7 @@ Solution: Implement contour-based recovery when tracking fails.
 Future Improvements
 🚀 Enhancements to consider:
 
-Adjunst threshold for object detection
+Adjust threshold for object detection
 Improve handling of occlusions and lighting changes.
 Dependencies
 Ensure you have the following installed:
