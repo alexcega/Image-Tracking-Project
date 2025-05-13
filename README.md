@@ -12,9 +12,10 @@ This project focuses on object tracking using OpenCV’s MeanShift and CamShift 
 This approach has applications in sports analytics, motion detection, and surveillance systems.
 
 ## Video
-Input Video is a basket ball bouncing facing different orientation on direction to the camera
+Input Video is a basketball bouncing facing different orientations on directions to the camera 
+
 <img src="ball2.png" alt="ball" width="600"/>
-Mask Applied for Color Detection
+Mask Applied for Color Detection 
 
 
 <img src="mask.png" alt="mask" width="600"/>
@@ -27,7 +28,7 @@ Copiar
 `cd Object-Tracking-MeanShift-CamShift`
 
 Usage
-All code can be found on `Main.py`
+All code can be found in `Main.py`
 
 This script:
 
