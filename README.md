@@ -15,6 +15,8 @@ This approach has applications in sports analytics, motion detection, and survei
 Input Video is a basket ball bouncing facing different orientation on direction to the camera
 <img src="ball2.png" alt="ball" width="600"/>
 Mask Applied for Color Detection
+
+
 <img src="mask.png" alt="mask" width="600"/>
 Installation
 Clone the repository:
@@ -28,14 +30,22 @@ Usage
 All code can be found on `Main.py`
 
 This script:
+
 ✅ Loads the video file.
+
 ✅ Allows the user to select an ROI (Region of Interest).
+
 ✅ Applies MeanShift / CamShift tracking.
+
 ✅ Uses contour detection if the ball is lost.
 
+
 It starts by manually selecting the mask with the use of cvzone libreary where:
+
 ✅ Detects the ball based on HSV color filtering.
+
 ✅ Uses cvzone for better contour detection.
+
 
 Algorithm Choice
 Why MeanShift & CamShift?
@@ -55,7 +65,7 @@ CamShift (Continuously Adaptive MeanShift) enhances MeanShift by dynamically res
 
 **Specific challenges in This Project:**
 
-1.Ball Design Issue. The ball has a white stripe, making it appear as two separate objects. This confuses the algorithm, causing tracking failures.
+1.Ball Design Issue. The ball has a white stripe, making it appear as two separate objects. This confuses the algorithm and causes tracking failures.
 
 2. Discontinuous Video. The video is a compilation of different ball clips. The ball disappears out of frame multiple times.
 
